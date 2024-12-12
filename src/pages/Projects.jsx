@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Projects() {
     return (
@@ -6,47 +6,50 @@ function Projects() {
 
             <div className='project-row-top'>
                 <div className="project-top-left">
-                    <div className="card-inner">
-                        <div className="card-front">
-                        <p>Project 1</p>
+                    <a href="https://github.com/CompSciZach/ConUHacksVIII" target="_blank" rel="noopener noreferrer">
+                        <div className="card-inner">
+                            <div className="card-front">
+                                <p>ConUHacks VIII - Financial Management Tool <br /> Javascript, HTML</p>
+                            </div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
 
                 <div className="project-top-right">
-                    <div className="card-inner">
-                        <div className="card-front">
-                        <p>Project 2</p>
+                    <a href="https://github.com/CompSciZach/GenPass-PasswordGenerator" target="_blank" rel="noopener noreferrer">
+                        <div className="card-inner">
+                            <div className="card-front">
+                                <p>Bell Hackathon - Password Generator <br /> C#</p>
+                            </div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
             </div>
 
-
             <div className='project-row-bottom'>
                 <div className="project-bottom-left">
-                    <div className="card-inner">
-                        <div className="card-front">
-                        <p>Project 3</p>
+                    <a href="https://github.com/CompSciZach/ECommerce" target="_blank" rel="noopener noreferrer">
+                        <div className="card-inner">
+                            <div className="card-front">
+                                <p>ASP.NET Microservices</p>
+                            </div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
 
                 <div className="project-bottom-right">
-                    <div className="card-inner">
-                        <div className="card-front">
-                        <p>Project 4</p>
+                    <a href="https://github.com/CompSciZach/Keylogger-Security" target="_blank" rel="noopener noreferrer">
+                        <div className="card-inner">
+                            <div className="card-front">
+                                <p>Security Keylogger with Python & Flask</p>
+                            </div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
             </div>
 
         </div>
-    )
+    );
 }
 
-export default Projects
+export default Projects;

@@ -11,7 +11,7 @@ function Landing() {
                 who loves snowboading and french vanilla coffees.
                 <br></br>
                  Ending my third year of computer science at John Abbott College, I<br></br>
-                 hope to pursue software engineering afterwards.
+                 hope to pursue software engineering in the future.
                  <br></br> 
             </p>
         </div>

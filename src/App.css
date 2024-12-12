@@ -1,0 +1,193 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: monospace, sans-serif;
+    background: linear-gradient(to bottom, #489df1, #826df9); /* Dark to light blue, #0777da  */
+    scroll-snap-type: y mandatory;
+  }
+
+  section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(150, 196, 230);
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+    scroll-snap-align: start; /* Section snaps into view at the start */
+  }
+  
+  .canvas-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    z-index: 0; /* Ensure it's above the background */
+    pointer-events: none;
+  }
+
+
+  .navbar {
+    position: fixed;
+    gap: 2rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 999;
+  }
+  .name #nav-name {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 1rem;
+    pointer-events: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1rem;
+    pointer-events: auto;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    margin: 1rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #e3e3e3;
+  }
+  
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: relative;
+    margin-top: 2rem;
+    border-radius: 15px;
+    z-index: 2;
+  }
+
+  .about {
+    max-width: 30rem;
+    font-size: 1.4rem;
+    background-color: #3c22e6;
+    color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    z-index: 2;
+  }
+
+  .app-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #050090;
+    border-radius: 12px;
+    padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+  }
+  
+  .landingHeader {
+    margin: 0;
+    font-size: 2.2rem;
+    color: white;
+  }
+
+  .landing {
+    color: rgba(76, 14, 233, 0.915);
+    font-size: 1.35rem;
+  }
+
+  #aboutHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #050090;
+    background-color: #7868dc;
+    border-radius: 12px;
+    padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+  }
+
+  #about {
+    color: #fff;
+  }
+
+
+
+  .zach-picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 300px;
+    margin: 1.2rem;
+  }
+  
+  #projects {
+    color: #fff;
+  }
+  
+  #contact {
+    color: #fff;
+  }
+
+  /* From Uiverse.io by vamsidevendrakumar */ 
+.card {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    z-index: 3;
+  }
+  
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  
+  .card-front {
+    background-color: #6A2C70;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: 10px solid #6A2C70;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(0deg);
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+    row-gap: 1rem;
+    margin: 1rem;
+  }
+
+  .project-row-top {
+
+  }
+
+  .project-row-bottom {
+
+  }
+
+  
+  

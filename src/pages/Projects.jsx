@@ -3,7 +3,7 @@ import React from 'react';
 function Projects() {
     return (
         <div className='projects'>
-
+            <h1 className='projectsHeader'>Projects</h1>
             <div className='project-row-top'>
                 <div className="project-top-left">
                     <a href="https://github.com/CompSciZach/ConUHacksVIII" target="_blank" rel="noopener noreferrer">

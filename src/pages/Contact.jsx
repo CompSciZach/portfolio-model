@@ -9,18 +9,18 @@ function Contact() {
             <h1>Reach Me!</h1>
             <div className="contact-methods">
                 <div className="contact-box">
-                    <img src={envelopeIcon} alt="Gmail Icon" />
                     <a href="mailto:zachdube31@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <img src={envelopeIcon} alt="Gmail Icon" />
                     </a>
                 </div>
                 <div className="contact-box">
-                    <img src={linkedinIcon} alt="LinkedIn Icon" />
                     <a href="https://www.linkedin.com/in/zachary-dube" target="_blank" rel="noopener noreferrer">
+                        <img src={linkedinIcon} alt="LinkedIn Icon" />
                     </a>
                 </div>
                 <div className="contact-box">
-                    <img src={githubIcon} alt="GitHub Icon" />
                     <a href="https://github.com/CompSciZach" target="_blank" rel="noopener noreferrer">
+                        <img src={githubIcon} alt="GitHub Icon" />
                     </a>
                 </div>
             </div>

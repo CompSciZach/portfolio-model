@@ -1,8 +1,3 @@
-# Developer Portfolio
+# OUTDATED portfolio
+This repository is now archived. 
 
-This repo serves as my personal portfolio highlighting my favorite personal projects.
-
-
-References:
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) 
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) 
